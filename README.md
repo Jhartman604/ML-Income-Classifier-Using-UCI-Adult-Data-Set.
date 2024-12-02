@@ -1,2 +1,5 @@
 # ML-Income-Classifier-Using-UCI-Adult-Data-Set.
-Census income data set used to predict whether salarly is over 50k/yr
+Census income data set used to predict whether salary is over 50k/yr
+
+## summary
+The project seeks to identify the most effective machine learning model for predicting whether an individual earns more than $50,000 annually, using the UCI Adult dataset. The analysis begins with data cleaning and preprocessing, where categorical variables are converted into binary indicators, numerical features are standardized, and the dataset is divided into training and testing sets. Various machine learning models are then implemented, including lasso and ridge regression, which help assess variable importance and optimize performance through cross-validation. Additionally, random forest models are trained with different configurations to compare their classification accuracy. By evaluating these models on both training and testing datasets, the project aims to determine which approach offers the highest predictive accuracy, providing insights into the relationships and factors that influence income classification.
